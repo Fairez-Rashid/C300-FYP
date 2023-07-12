@@ -11,13 +11,13 @@ pipeline {
 
         stage('Maven compile') {
             steps {
-                sh "mvn clean build"
+                bat "mvn clean build"
             }
         }
 
         stage('Maven package') {
             steps {
-                sh "mvn package -Dmaven.test.skip=true"
+                bat "mvn package -Dmaven.test.skip=true"
             }
         }
 
