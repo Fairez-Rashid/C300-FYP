@@ -32,7 +32,7 @@ pipeline {
         //         junit allowEmptyResults: true, testResults: '**/surefire-reports/*.xml'
         //     }
         // }
-
+//
         // stage('Deploy') {
         //     steps {
         //         withCredentials([[
